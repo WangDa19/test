@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/task/task",
+    "pages/task/detail",
+    "pages/mine/mine",
+    "pages/mine/follows",
+    "pages/mine/fans",
+    "pages/idle/list",
+    "pages/errand/list",
+    "pages/skill/list",
+    "pages/tutor/list",
+    "pages/carpool/list",
+    "pages/outdoor/index",
+    "pages/job/list",
+    "pages/more/list",
+    "pages/publish/publish",
+    "pages/chat/chat",
+    "pages/webview/webview",
+    "pages/login/index",
+    "pages/mine/profile",
+    "pages/mine/education-verify",
+    "pages/mine/edu-info",
+    "pages/errand/detail",
+    "pages/mine/collections",
+    "pages/mine/tasks/published",
+    "pages/mine/tasks/accepted",
+    "pages/mine/tasks/completed"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#999999",
+    "selectedColor": "#ff5757",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要使用您的位置信息用于实时定位"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "publish-button": "/components/publish-button/publish-button",
+    "common-tab-bar": "/components/common-tab-bar",
+    "tab-bar": "/components/tab-bar/tab-bar",
+    "upload-image": "/components/upload-image/upload-image"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "memorySize": 512,
+  "timeout": 60,
+  "concurrency": 20,
+  "description": "获取帖子列表，优化版本"
+} 

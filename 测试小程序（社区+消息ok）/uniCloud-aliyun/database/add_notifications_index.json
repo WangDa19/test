@@ -1,0 +1,44 @@
+{
+  "db": {
+    "notifications": {
+      "index": [
+        {
+          "IndexName": "notifications_targetUser_status_createTime",
+          "MgoKeySchema": {
+            "MgoIndexKeys": [
+              {
+                "Name": "targetUser",
+                "Direction": "1"
+              },
+              {
+                "Name": "status",
+                "Direction": "1"
+              },
+              {
+                "Name": "createTime",
+                "Direction": "-1"
+              }
+            ],
+            "MgoIsUnique": false
+          }
+        },
+        {
+          "IndexName": "notifications_targetUser_status",
+          "MgoKeySchema": {
+            "MgoIndexKeys": [
+              {
+                "Name": "targetUser",
+                "Direction": "1"
+              },
+              {
+                "Name": "status",
+                "Direction": "1"
+              }
+            ],
+            "MgoIsUnique": false
+          }
+        }
+      ]
+    }
+  }
+} 

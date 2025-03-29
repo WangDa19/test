@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "disableScroll": false,
+  "usingComponents": {
+    "tab-bar": "/components/tab-bar/tab-bar",
+    "icon-button": "/components/IconButton",
+    "publish-button": "/components/publish-button/publish-button"
+  }
+}

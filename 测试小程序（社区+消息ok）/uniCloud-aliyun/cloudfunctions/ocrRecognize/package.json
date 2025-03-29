@@ -1,0 +1,10 @@
+{
+  "name": "ocrRecognize",
+  "version": "1.0.0",
+  "description": "百度OCR识别云函数",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "baidu-aip-sdk": "^4.16.16"
+  }
+}

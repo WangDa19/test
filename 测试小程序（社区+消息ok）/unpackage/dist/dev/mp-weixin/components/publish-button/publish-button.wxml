@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goPublish',['$event']]]]]}}" class="publish-btn" bindtap="__e"><text class="plus-icon">+</text></view>

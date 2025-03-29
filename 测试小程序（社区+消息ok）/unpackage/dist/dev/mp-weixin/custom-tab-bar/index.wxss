@@ -1,0 +1,81 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1rpx solid #f0f0f0;
+  padding-bottom: constant(safe-area-inset-bottom); /* iOS < 11.2 */
+  padding-bottom: env(safe-area-inset-bottom); /* iOS >= 11.2 */
+  z-index: 9999;
+  box-shadow: 0 -2rpx 6rpx rgba(0, 0, 0, 0.05);
+}
+
+.tab-bar-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+/* 添加点击特效 */
+.tab-bar-item:active {
+  background-color: #f8f8f8;
+}
+
+.tab-text {
+  font-size: 28rpx;
+  color: #999999;
+  transition: all 0.2s;
+}
+
+/* 选中状态样式 */
+.tab-bar-item.active {
+  background-color: #fff5f5;
+}
+
+.tab-bar-item.active .tab-text {
+  color: #ff5757;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+/* 添加底部指示条 */
+.tab-bar-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40rpx;
+  height: 4rpx;
+  background-color: #ff5757;
+  border-radius: 2rpx;
+}
+
+.publish-btn {
+  width: 120rpx;
+  height: 60rpx;
+  background: #ff5757;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-icon {
+  color: #ffffff;
+  font-size: 32rpx;
+}
+
+/* 发布按钮点击效果 */
+.publish-btn:active {
+  transform: scale(0.95);
+  opacity: 0.9;
+} 

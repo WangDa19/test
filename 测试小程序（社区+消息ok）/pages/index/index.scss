@@ -1,0 +1,39 @@
+/* 使用 SCSS 嵌套语法确保样式不被覆盖 */
+.index-container {
+	padding: 0 20rpx;
+	background-color: #ffffff;
+	min-height: 100vh;
+	padding-bottom: calc(240rpx + env(safe-area-inset-bottom)) !important;
+	box-sizing: border-box;
+	position: relative;
+
+	.search-bar {
+		position: fixed;
+		top: -20;
+		left: 0;
+		right: 0;
+		z-index: 100;
+		background: #fff;
+		padding: 20rpx;
+		box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+	}
+
+	.function-area {
+		margin-top: 100rpx;
+		padding: 20rpx 0;
+	}
+
+	.waterfall {
+		margin-bottom: calc(120rpx + env(safe-area-inset-bottom));
+	}
+}
+
+/* 确保底部导航样式正确 */
+.custom-tab-bar {
+	position: fixed !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	z-index: 999 !important;
+	padding-bottom: env(safe-area-inset-bottom) !important;
+} 

@@ -1,0 +1,8 @@
+{
+  "name": "getCommentLikes",
+  "version": "1.0.0",
+  "description": "获取用户对评论的点赞状态",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+} 

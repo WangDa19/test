@@ -1,0 +1,12 @@
+{
+  "name": "getFileByCommentId",
+  "version": "1.0.0",
+  "description": "获取评论相关的图片文件ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+} 

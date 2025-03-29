@@ -1,0 +1,9 @@
+{
+  "name": "getCommentDetail",
+  "version": "1.0.0",
+  "description": "获取评论详情云函数",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+} 

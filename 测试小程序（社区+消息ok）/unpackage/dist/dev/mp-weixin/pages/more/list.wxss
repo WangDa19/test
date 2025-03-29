@@ -1,0 +1,39 @@
+
+.container {
+  padding: 20rpx;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.add-btn {
+  background: #ff5757;
+  color: #fff;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx;
+}
+.item-list {
+  margin-top: 20rpx;
+}
+.item {
+  padding: 15rpx;
+  border: 1rpx solid #f0f0f0;
+  border-radius: 10rpx;
+  margin-bottom: 10rpx;
+}
+.item-title {
+  font-size: 28rpx;
+  color: #333;
+}
+.item-details {
+  font-size: 24rpx;
+  color: #999;
+}
+

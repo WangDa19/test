@@ -1,0 +1,153 @@
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+  position: relative;
+  height: 88rpx;
+  box-sizing: border-box;
+}
+.nav-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  pointer-events: none; /* 防止标题文本干扰返回按钮的点击 */
+}
+.message-list {
+  flex: 1;
+  padding: 20rpx;
+  box-sizing: border-box;
+  position: relative;
+  height: calc(100vh - 170rpx); /* 添加明确的高度 */
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.message-item {
+  display: flex;
+  margin-bottom: 20rpx;
+  align-items: flex-start;
+  position: relative;
+}
+.message-item.self {
+  flex-direction: row-reverse;
+}
+.avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin: 0 20rpx;
+}
+.message-content {
+  max-width: 60%;
+  background-color: #fff;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+.self .message-content {
+  background-color: #007AFF;
+}
+.message-text {
+  font-size: 28rpx;
+  line-height: 1.4;
+  word-break: break-all;
+}
+.self .message-text {
+  color: #fff;
+}
+.send-time {
+  display: none;
+}
+.self .send-time {
+  color: rgba(255, 255, 255, 0.8);
+}
+.input-area {
+  display: flex;
+  padding: 20rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #eee;
+}
+.input-area input {
+  flex: 1;
+  height: 72rpx;
+  background-color: #f5f5f5;
+  border-radius: 36rpx;
+  padding: 0 30rpx;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+}
+.send-btn {
+  width: 120rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  background-color: #007AFF;
+  color: #fff;
+  border-radius: 36rpx;
+  font-size: 28rpx;
+}
+.send-btn[disabled] {
+  background-color: #ccc;
+}
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* 增加空状态高度 */
+  padding: 40rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+.empty-state text {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 20rpx 40rpx;
+  border-radius: 12rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.nickname {
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 4rpx;
+}
+.message-item.self .nickname {
+  display: none;
+}
+.message-item.self .message-content {
+  padding-right: 40rpx;
+}
+.message-item .report-btn,
+.report-icon {
+  display: none;
+}
+
+/* 添加或修改时间分隔符样式 */
+.time-divider {
+  text-align: center;
+  margin: 20rpx 0;
+  position: relative;
+}
+.time-divider text {
+  display: inline-block;
+  padding: 6rpx 16rpx;
+  font-size: 24rpx;
+  color: #999;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "帖子详情",
+  "usingComponents": {
+    "comment-popup": "/components/comment-popup/comment-popup"
+  }
+}

@@ -1,0 +1,83 @@
+
+.profile-container {
+  padding: 30rpx;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+.header {
+  margin-bottom: 40rpx;
+}
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+.form-section {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 40rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+  border: 4rpx solid #fff;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.1);
+}
+.change-text {
+  font-size: 28rpx;
+  color: #666;
+}
+.form-item {
+  margin-bottom: 30rpx;
+  position: relative;
+}
+.label {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+  display: block;
+}
+input, textarea {
+  width: 100%;
+  background: #f8f8f8;
+  border-radius: 12rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #333;
+  border: 2rpx solid #eee;
+}
+textarea {
+  height: 180rpx;
+}
+.word-count {
+  position: absolute;
+  bottom: 10rpx;
+  right: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.submit-btn {
+  background: linear-gradient(135deg, #ff6b6b, #ff5757);
+  color: #fff;
+  border-radius: 40rpx;
+  padding: 24rpx 0;
+  font-size: 32rpx;
+  font-weight: 500;
+  box-shadow: 0 4rpx 16rpx rgba(255, 87, 87, 0.2);
+}
+.submit-btn:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  opacity: 0.9;
+}
+

@@ -1,0 +1,19 @@
+<view class="tab-bar">
+  <view class="tab-bar-item {{selected === 0 ? 'active' : ''}}" data-path="/pages/index/index" data-index="0" bindtap="switchTab">
+    <text class="tab-text">首页</text>
+  </view>
+  <view class="tab-bar-item {{selected === 1 ? 'active' : ''}}" data-path="/pages/message/message" data-index="1" bindtap="switchTab">
+    <text class="tab-text">消息</text>
+  </view>
+  <view class="tab-bar-item" data-path="/pages/publish/publish" data-index="-1" bindtap="switchTab">
+    <view class="publish-btn">
+      <text class="plus-icon">+</text>
+    </view>
+  </view>
+  <view class="tab-bar-item {{selected === 2 ? 'active' : ''}}" data-path="/pages/task/task" data-index="2" bindtap="switchTab">
+    <text class="tab-text">社区</text>
+  </view>
+  <view class="tab-bar-item {{selected === 3 ? 'active' : ''}}" data-path="/pages/mine/mine" data-index="3" bindtap="switchTab">
+    <text class="tab-text">我的</text>
+  </view>
+</view> 

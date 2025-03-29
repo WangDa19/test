@@ -1,0 +1,207 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/task/detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/mine/follows",
+			"style": {
+			  "navigationStyle": "custom",
+			  "app-plus": {
+				"titleNView": false
+			  }
+			}
+		  },
+		  {
+			"path": "pages/mine/fans",
+			"style": {
+			  "navigationStyle": "custom",
+			  "app-plus": {
+				"titleNView": false
+			  }
+			}
+		},
+		{
+			"path": "pages/idle/list",
+			"style": {
+				"navigationBarTitleText": "闲置交易"
+			}
+		},
+		{
+			"path": "pages/errand/list",
+			"style": {
+				"navigationBarTitleText": "跑腿代取",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/skill/list",
+			"style": {
+				"navigationBarTitleText": "专业技能"
+			}
+		},
+		{
+			"path": "pages/tutor/list",
+			"style": {
+				"navigationBarTitleText": "课程辅导"
+			}
+		},
+		{
+			"path": "pages/carpool/list",
+			"style": {
+				"navigationBarTitleText": "交通拼车"
+			}
+		},
+		{
+			"path": "pages/outdoor/index",
+			"style": {
+				"navigationBarTitleText": "游玩搭子"
+			}
+		},
+		{
+			"path": "pages/job/list",
+			"style": {
+				"navigationBarTitleText": "校招实习"
+			}
+		},
+		{
+			"path": "pages/more/list",
+			"style": {
+				"navigationBarTitleText": "更多服务"
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "网页浏览"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/mine/profile",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/mine/education-verify",
+			"style": {
+				"navigationBarTitleText": "学籍信息验证"
+			}
+		},
+		{
+			"path": "pages/mine/edu-info",
+			"style": {
+				"navigationBarTitleText": "学籍信息"
+			}
+		},
+		{
+			"path": "pages/errand/detail",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/collections",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/tasks/published",
+			"style": {
+				"navigationBarTitleText": "发布的任务"
+			}
+		},
+		{
+			"path": "pages/mine/tasks/accepted",
+			"style": {
+				"navigationBarTitleText": "接受的任务"
+			}
+		},
+		{
+			"path": "pages/mine/tasks/completed",
+			"style": {
+				"navigationBarTitleText": "已完成的任务"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#999999",
+		"selectedColor": "#ff5757",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/task/task",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的"
+			}
+		]
+	}
+}

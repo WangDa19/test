@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" class="icon-button" bindtap="__e"><image class="icon" src="{{icon}}" mode="aspectFit"></image><text class="label">{{label}}</text></view>

@@ -1,0 +1,12 @@
+{
+  "name": "getPostImages",
+  "version": "1.0.0",
+  "description": "获取帖子相关的图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+} 
